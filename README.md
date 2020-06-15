@@ -10,42 +10,42 @@
 安装opencv
 `pip install -i https://pypi.tuna.tsinghua.edu.cn/simple opencv-python`
 
-## [2：图像基本操作](./chapter2/readme.md)
+## [2：图像基本操作](./chapter2)
 
-## [3：阈值和平滑处理](./chapter3/readme.md)
+## [3：阈值和平滑处理](./chapter3)
 
-## [4：图像形态学操作](./chapter4/readme.md)
+## [4：图像形态学操作](./chapter4)
 
-## [5：图像梯度计算](./chapter5/readme.md)
+## [5：图像梯度计算](./chapter5)
 
-## [6：边缘检测](./chapter6/readme.md)
+## [6：边缘检测](./chapter6)
 
-## [7：图像金字塔与轮廓检测](./chapter7/readme.md)
+## [7：图像金字塔与轮廓检测](./chapter7)
 
-## [8：直方图与傅里叶变换](./chapter8/readme.md)
+## [8：直方图与傅里叶变换](./chapter8)
 
-## [9：项目实战-信用卡数字识别](./chapter9/readme.md)
+## [9：项目实战-信用卡数字识别](./chapter9)
 
-## [10：项目实战-文档扫描OCR识别](./chapter10/readme.md)
+## [10：项目实战-文档扫描OCR识别](./chapter10)
 
-## [11：图像特征-harris](./chapter11/readme.md)
+## [11：图像特征-harris](./chapter11)
 
-## [12：图像特征-sift](./chapter12/readme.md)
+## [12：图像特征-sift](./chapter12)
 
-## [13：项目实战-全景图像拼接](./chapter13/readme.md)
+## [13：项目实战-全景图像拼接](./chapter13)
 
-## [14：项目实战-停车场车位识别](./chapter14/readme.md)
+## [14：项目实战-停车场车位识别](./chapter14)
 
-## [15：项目实战-答题卡识别判卷](./chapter15/readme.md)
+## [15：项目实战-答题卡识别判卷](./chapter15)
 
-## [16：背景建模](./chapter16/readme.md)
+## [16：背景建模](./chapter16)
 
-## [17：光流估计](./chapter17/readme.md)
+## [17：光流估计](./chapter17)
 
-## [18：opencv的DNN模块](./chapter18/readme.md)
+## [18：opencv的DNN模块](./chapter18)
 
-## [19：项目实战-目标追踪](./chapter19/readme.md)
+## [19：项目实战-目标追踪](./chapter19)
 
-## [20：卷积原理与操作](./chapter20/readme.md)
+## [20：卷积原理与操作](./chapter20)
 
-## [21：项目实战-疲劳检测](./chapter21/readme.md)
+## [21：项目实战-疲劳检测](./chapter21)
