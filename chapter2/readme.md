@@ -14,6 +14,15 @@ flag有三种取值：
 * 可以用 1, 0 or -1 来代替这三个取值.
 * imread读取的图像的类型是ndarray（w,h,c),单个元素的类型是uint8
 
+将图像从BGR转化为灰度图
+`img_gray = cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)`
+
+将图像从BGR转化为HSV
+`hsv=cv2.cvtColor(img,cv2.COLOR_BGR2HSV)`
+* H - 色调（主波长）。
+* S - 饱和度（纯度/颜色的阴影）。
+* V值（强度）
+
 保存图片
 `cv2.write(filename,img[,params])`默认以PNG保存。
 
