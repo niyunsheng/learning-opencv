@@ -22,29 +22,28 @@
 均值滤波
 `blur = cv2.blur(img, (3, 3))`
 
-$$
-\mathrm{K}=\frac{1}{\text { ksize .width*ksize .height }}\left[\begin{array}{cccccc}1 & 1 & 1 & \cdots & 1 & 1 \\ 1 & 1 & 1 & \cdots & 1 & 1 \\ & & \cdots & \cdots & & \\ 1 & 1 & 1 & \cdots & 1 & 1\end{array}\right]
-$$
+![](imgs/blur.png)
 
 方框滤波
 `cv2.boxFilter(img,-1,(3,3), normalize=True)`
 * 第二个参数是ddepth – the output image depth (-1 to use src.depth()).
 * 当可选参数 normalize 为 True 的时候，方框滤波就是均值滤波。normalize 为 False 的时候，a=1，相当于求区域内的像素和。
 
-$$
-\mathrm{K}=\alpha\left[\begin{array}{cccccc}1 & 1 & 1 & \cdots & 1 & 1 \\ 1 & 1 & 1 & \cdots & 1 & 1 \\ & & \cdots & \cdots & & \\ 1 & 1 & 1 & \cdots & 1 & 1\end{array}\right]
-$$
+![](imgs/boxfilter1.png)
 
-$$
-\alpha=\left\{\begin{array}{ll}\frac{1}{\mathrm{ksize} . \text { width*ksize .height }} & \text { when normalize=true } \\ 1 & \text { otherwise }\end{array}\right.
-$$
+![](imgs/boxfilter2.png)
 
 高斯滤波
 `cv2.GaussianBlur(src, ksize, sigmaX[, dst[, sigmaY[, borderType]]])`
 * ksize可以选（3，3）等
 * sigmaX – Gaussian kernel standard deviation in X direction.
-* sigmaX越大，模糊效果越明显。
+* 高斯滤波后图像的平滑程度取决于标准差，sigmaX越大，模糊效果越明显。
 * 高斯滤波相比均值滤波效率要慢，但可以有效消除高斯噪声，能保留更多的图像细节，所以经常被称为最有用的滤波器。
+* 相对于均值滤波（mean filter）它的平滑效果更柔和，而且边缘保留的也更好
+
+![](imgs/gaussian1.png)
+
+![](imgs/guassian2.png)
 
 中值滤波
 `cv2.medianBlur(img, 5)`
